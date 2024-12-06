@@ -367,7 +367,7 @@ function createChunks(arr, chunkSize) {
  */
 function generateOdds(len) {
   let a = 1;
-  return Array.from({ length: len }, function () {
+  return Array.from({ length: len }, () => {
     const x = a;
     a += 2;
     return x;
